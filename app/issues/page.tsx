@@ -87,9 +87,9 @@ export default async function IssuesPage(context: {
       <div className="mt-5 row">
         {issues.map((issue) => (
           <div key={issue.id} className="mb-5 col-md-3">
-            <div className="issue-card shadow-secondary">
+            <div className="issue-card shadow-primary">
               <div className="d-flex">
-                <h2 className="fs-2">
+                <h2 className="fs-3 popp">
                   <Link href={`/issues/${issue.id}`}>
                     {truncateTitle(issue.title)}
                   </Link>
@@ -118,5 +118,5 @@ export default async function IssuesPage(context: {
 export const dynamic = "force-dynamic";
 
 function truncateTitle(title: string) {
-  return title.length > 33 ? `${title.slice(0, 33)}...` : title;
+  return title.length > 21 ? `${title.slice(0, 21)}...` : title;
 }

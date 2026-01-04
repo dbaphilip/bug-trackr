@@ -29,6 +29,11 @@ a {
   font-family: "familjen grotesk";
 }
 
+.popp {
+  font-family: "Poppins";
+  font-weight: 200 !important;
+}
+
 .shadow-primary {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -39,7 +44,7 @@ a {
 }
 
 .issue-card > div {
-  height: 200px;
+  height: 210px;
   justify-content: space-between;
   flex-direction: column;
   padding: 1rem;

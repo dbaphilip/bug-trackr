@@ -9,7 +9,10 @@ export default function IssueDetailsTitle({ issue }: Props) {
   //
   return (
     <>
-      <h1 style={{ fontSize: "4rem" }}> {issue.title} </h1>
+      <h1 className="popp" style={{ fontSize: "4rem" }}>
+        {" "}
+        {issue.title}{" "}
+      </h1>
 
       <div className="d-flex justify-content-between">
         <span className="fs-3">

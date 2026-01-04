@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Gochi_Hand } from "next/font/google";
+import { Bricolage_Grotesque, Gochi_Hand, Poppins } from "next/font/google";
 import AuthProvider from "./auth/Provider";
 import BootstrapClient from "./BootstrapClient";
 import "./globals.css";
@@ -14,6 +14,10 @@ const brico = Bricolage_Grotesque({
 const gochi = Gochi_Hand({
   weight: "400",
   subsets: ["latin"],
+});
+
+const popp = Poppins({
+  weight: ["200", "300", "400"],
 });
 
 export const metadata: Metadata = {
