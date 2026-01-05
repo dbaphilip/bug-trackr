@@ -11,5 +11,5 @@ npm run build
 echo "******************"
 echo "*** Ci/Cd done ***"
 echo "******************"
-sleep 10
+sleep 15
 init 6
