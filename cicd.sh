@@ -11,4 +11,5 @@ npm run build
 echo "******************"
 echo "*** Ci/Cd done ***"
 echo "******************"
+systemctl restart trackr
 sleep 9
