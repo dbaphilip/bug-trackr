@@ -8,4 +8,4 @@ npm ci
 npx prisma migrate deploy
 npx prisma generate
 npm run build
-systemctl restart trackr
+init 6
