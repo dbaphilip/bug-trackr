@@ -1,7 +1,6 @@
-import { FaArrowUp } from "react-icons/fa";
 import prisma from "@/prisma/client";
-import delay from "delay";
 import Link from "next/link";
+import { FaArrowUp } from "react-icons/fa";
 import { Issue } from "../generated/prisma/client";
 import { Status } from "../generated/prisma/enums";
 import IssueStatusBadge from "./IssueStatusBadge";
@@ -31,7 +30,6 @@ export default async function IssuesPage(context: {
     where: { status: validStatus },
     orderBy: ordering,
   });
-  await delay(3000);
 
   return (
     <div className="mt-5 container">
