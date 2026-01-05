@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /root/bug-trackr
+cd /root/trackr
 git pull https://github.com/dbaphilip/bug-trackr.git
 
 source /root/.nvm/nvm.sh
