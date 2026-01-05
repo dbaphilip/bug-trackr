@@ -8,4 +8,8 @@ npm ci
 npx prisma migrate deploy
 npx prisma generate
 npm run build
+echo "******************"
+echo "*** Ci/Cd done ***"
+echo "******************"
+sleep 10
 init 6
