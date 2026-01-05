@@ -8,8 +8,9 @@ npm ci
 npx prisma migrate deploy
 npx prisma generate
 npm run build
+systemctl restart trackr
 echo "******************"
 echo "*** Ci/Cd done ***"
 echo "******************"
-systemctl restart trackr
 sleep 9
+
